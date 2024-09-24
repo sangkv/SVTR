@@ -1,6 +1,6 @@
 import test_svtr_encoder
 
-check = test_svtr_encoder.TestOverlapPatchEmbed()
+check = test_svtr_encoder.TestSVTREncoder()
 
 print(check.setUp())
-print(check.test_overlap_patch_embed())
+print(check.test_svtr_encoder())

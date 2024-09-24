@@ -1,0 +1,9 @@
+torch
+torchvision
+opencv-python
+lmdb
+nltk
+openmim
+mmengine
+mmcv==2.1.0
+mmdet
