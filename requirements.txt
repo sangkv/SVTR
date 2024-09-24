@@ -5,5 +5,5 @@ lmdb
 nltk
 openmim
 mmengine
-mmcv==2.1.0
+mmcv-lite==2.1.0
 mmdet

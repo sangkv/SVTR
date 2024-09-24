@@ -93,7 +93,7 @@ for p in filter(lambda p: p.requires_grad, model.parameters()):
 print('Trainable params num : ', sum(params_num))
 
 # setup optimizer
-optimizer = optim.AdamW(filtered_parameters, lr=0.001)
+optimizer = optim.AdamW(filtered_parameters, lr=0.00005)
 print("Optimizer:")
 print(optimizer)
 
